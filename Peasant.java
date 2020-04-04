@@ -1,19 +1,14 @@
-package türk.lira;
+package HW1;
 
 public class Peasant extends Person {
-
     static Peasant obj = new Peasant();
-
     public static Peasant getInstance() {
         return obj;
     }
-
     Location location = Location.getInstance();
     Mines mines = Mines.getInstance();
-
     float peasant_mine_position = 0;
     String nearest_mine_type = null;
-
     @Override
     public void setPersonLocation() {
 
@@ -32,7 +27,7 @@ public class Peasant extends Person {
                 }
             }
         }
-        nearest_mine_type = (mine);
+        nearest_mine_type = mine;
     }
 
     public float getPeasant_mine_position() {
@@ -42,7 +37,5 @@ public class Peasant extends Person {
     public String getNearest_mine_type() {
         return nearest_mine_type;
     }
-    
-    
 
 }
