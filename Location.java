@@ -1,9 +1,8 @@
-package türk.lira;
+package HW1;
 
 public class Location {
 
     static Location obj = new Location();
-
     public static Location getInstance() {
         return obj;
     }
