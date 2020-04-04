@@ -1,4 +1,4 @@
-package türk.lira;
+package HW1;
 
 public class Security extends Person {
 
@@ -15,7 +15,7 @@ public class Security extends Person {
         security_activation = true;
     }
 
-    public boolean isSecurity_activation() {
+    public boolean isSecurity_activated() {
         return security_activation;
     }
 
